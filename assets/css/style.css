@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dmsans-700 {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.popins-500 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt-white-cent {
+    color: #fff;
+    text-align: center;
+}
+
+.section {
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.heading {
+    font-size: 42px;
+}
+
+.paragraph {
+    /* max-width: 702px; */
+    font-family: "DM Sans";
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.mb-24 {
+    margin-bottom: 20px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.box {
+    border: 2px solid #4E3BA3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 168px;
+}
+
+img {
+    width: 55%;
+}
